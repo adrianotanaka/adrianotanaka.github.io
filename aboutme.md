@@ -1,16 +1,14 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: Sobre mim
+
+comments: true
+modified: 2015-02-03
 ---
+<ul><li>Oracle Certified Associate 11g.</li></ul>
 
-My name is Inigo Montoya. I have the following qualities:
+<ul><li>DBA Oracle com foco em ambientes de alta disponibilidade e servidores linux.</li>
+<li>Graduado em gestão de tecnologia da informação pela Faculdade Cambury - GO.</li>
+<li>MBA em governaças da tecnologia da informação pelo IPOG - GO.</li></ul>
 
-- I rock a great mustache
-- I'm extremely loyal to my family
 
-What else do you need?
-
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
