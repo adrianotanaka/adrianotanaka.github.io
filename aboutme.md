@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Sobre mim
+title: About me
 
 comments: true
 modified: 2015-02-03
