@@ -31,7 +31,8 @@ O ideal é que a relação de confiança ssh entre as máquina seja configurada 
 #### Na máquina de destino executar os seguintes comandos
 >Caso você já possua uma chave publica criada, não execute esse comando pois ele vai sobrescrever a que você já possui
 
-    ssh-keygen -t rsa    
+    ssh-keygen -t rsa   
+    
    ![enter image description here](https://i.imgur.com/6AgOT0r.png)
 
 Copiar a chave para o servidor de origem:
@@ -84,3 +85,6 @@ Você precisa criar um arquivo com as seguintes variáveis de ambiente:
 O script deve ser executado na máquina de destino passando o $ORACLE_SID do banco que você deseja sincronizar.
 
 
+## O Script
+
+<script charset="UTF-8" src="https://gist-it.appspot.com/github.com/flowerinthenight/rusttrace/blob/master/src/main.rs?footer=minimal"></script>
