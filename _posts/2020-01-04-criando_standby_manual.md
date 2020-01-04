@@ -87,4 +87,4 @@ O script deve ser executado na máquina de destino passando o $ORACLE_SID do ban
 
 ## O Script
 
-<script charset="UTF-8" src="https://gist-it.appspot.com/github.com/flowerinthenight/rusttrace/blob/master/src/main.rs?footer=minimal"></script>
+<script charset="UTF-8" src="https://github.com/adrianotanaka/scripts/blob/master/oracle/standby.sh?footer=minimal"></script>
