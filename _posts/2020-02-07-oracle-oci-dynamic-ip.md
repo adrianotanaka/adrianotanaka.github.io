@@ -15,24 +15,21 @@ Pensando em não deixar nenhuma porta aberta no ambiente OCI, criei o seguinte s
 A ideia é que ele seja colocado em um crontab ou outro agendador em um servidor linux na sua estrutura local.
 Abaixo os requisitos para que ele possa funcionar:
 
- - Ter configurado o oci-cli 
- - Ter criado uma vcn e um drg
- - Ter os utilitários dig, jq instalados
- - Ajustar a função func_vars() com as informações do seu ambiente:
+- Ter configurado o oci-cli 
+- Ter criado uma vcn e um drg
+- Ter os utilitários dig, jq instalados
+- Ajustar a função func_vars() com as informações do seu ambiente:
 
- 
-
- 
-  func_vars () {
-                    var_compartment="ocid do seu compartimento" #Your compartment ocid
-        var_drg="ocid do seu drg" #Your drg ocid
-        var_routes=""'["Sua rede(s) interna no formato CIDR"]'"" #Your onp routes
-        var_list="Sua rede(s) interna no formato CIDR" #The same of route
-        var_vcnd_id="ocid da sua vcn" #Your VNC ocid
-        var_dev_name="Um nome para ser concatenado ao nome dos recursos" #Name of created resource, reused on all resources
-                   }
-
-
+    func_vars () {
+    
+            var_compartment="ocid do seu compartimento" #Your compartment ocid
+            var_drg="ocid do seu drg" #Your drg ocid
+            var_routes=""'["Sua rede(s) interna no formato CIDR"]'"" #Your onp routes
+            var_list="Sua rede(s) interna no formato CIDR" #The same of route
+            var_vcnd_id="ocid da sua vcn" #Your VNC ocid
+            var_dev_name="Um nome para ser concatenado ao nome dos recursos" #Name of created resource, reused on all resources
+    }
+                   
 <script charset="UTF-8" src="https://gist-it.appspot.com/github.com/adrianotanaka/scripts/blob/master/oci/vpn-dynamic-ip.sh?footer=minimal"></script>
 
 > Written with [StackEdit](https://stackedit.io/).
