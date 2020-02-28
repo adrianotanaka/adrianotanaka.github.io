@@ -6,15 +6,13 @@ categories:
 ---
 
 
-# Enviando e-mail no Oracle usando SSL/TLS
-
 Atualmente criptografar os dados trafegados é uma coisa fundamental, inclusive a Oracle [liberou o uso de algumas funcionalidades de criptografia para versões não Enterprise](https://oracle-base.com/blog/2015/06/27/native-network-encryption-not-part-of-advanced-security-option/) , e a  criptografia de e-mail está implementada nos grandes fornecedores de tecnologia. 
 
 Então preparei o seguinte tutorial de como se configurar uma Wallet, importar os certificados e também um exemplo bem útil de como enviar o e-mail.
 
 Vamos utilizar o Gmail para testes e você precisa ativar o acesso à aplicativos menos seguros senão mesmo com as credenciais corretas o login não vai ser possível:
 
-https://support.google.com/accounts/answer/6010255?p=lsa_blocked&hl=pt-BR&visit_id=637184509838379444-493512541&rd=1
+[https://support.google.com/accounts/answer/6010255?p=lsa_blocked&hl=pt-BR&visit_id=637184509838379444-493512541&rd=1](https://support.google.com/accounts/answer/6010255?p=lsa_blocked&hl=pt-BR&visit_id=637184509838379444-493512541&rd=1)
 
 
 ## Baixando o certificado
