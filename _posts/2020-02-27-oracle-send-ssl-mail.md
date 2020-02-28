@@ -20,11 +20,11 @@ Vamos utilizar o Gmail para testes e você precisa ativar o acesso à aplicativo
 O primeiro passo para isso é baixar o certificado que vai ser utilizado para a autenticação segura no serviço de e-mail.
 Usando o Google Chrome, basta acessar o site (nesse caso o Gmail) e clicar no cadeado na barra de navegação (1) e após isso clicar no campo certificado(2):
 
-![enter image description here](https://i.imgur.com/xbJuRTh.png)
+![enter image description here](https://i.imgur.com/xbJuRTh.png){: .center-block :}
 
 Na janela que abrir, clique em Caminho de certificação (1), depois clique no certificado root (o primeiro de cima para baixo)  e por fim use a opção Exibir certificado (2):
 
-![enter image description here](https://i.imgur.com/Ma4rLQ5.png)
+![enter image description here](https://i.imgur.com/Ma4rLQ5.png){: .center-block :}
 
 Na janela que se abrir, clique  na aba detalhes e depois Copiar para arquivo e siga os passos apresentados para salvar o certificado na sua máquina, copie o arquivo gerado para o servidor de banco de dados.
 
