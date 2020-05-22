@@ -11,6 +11,8 @@ support and grow the customer business.
 ## Certification list:
 
 <ul>
+  <li>02/04/2020 • Oracle Cloud Infrastructure 2019 Architect Associate</li>
+  <li>12/03/2020 • Oracle Cloud Infrastructure 2018 Architect Associate</li>
   <li>30/06/2018 • Oracle Cloud Infrastructure Classic 2018 Associate Architect</li>
   <li>04/05/2017 • Oracle Database 11g DBA OCP Hands-on Course</li>
   <li>31/10/2016 • Upgrade to Oracle Database 12c</li>
