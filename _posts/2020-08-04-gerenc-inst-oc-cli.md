@@ -42,6 +42,7 @@ Para desligar uma máquina você pode utilizar os valores **STOP** ou **SOFTSTOP
 oci compute instance action --action STOP --instance-id ocid1.instance.oc1.sa-saopaulo-1.XXXXXXXXXXX
 ```
 
+
 ```shell
 oci compute instance action --action SOFTSTOP --instance-id ocid1.instance.oc1.sa-saopaulo-1.XXXXXXXXXXX
 ```
@@ -59,7 +60,8 @@ Para colocar a instância no ar, basta executar o comando com o parâmetro *- -a
 oci compute instance action --action START --instance-id ocid1.instance.oc1.sa-saopaulo-1.XXXXXXXXXXX
 ```
 
-#### Agendado o desligamento automático de instâncias:
+
+#### Agendando o desligamento automático de instâncias:
 
 Depois de descobrir a dinâmica do comando oci compute instance action fica fácil de configurar um desligamento/ligamento automático das VMs:
 
