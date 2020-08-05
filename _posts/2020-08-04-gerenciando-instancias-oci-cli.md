@@ -47,6 +47,9 @@ oci compute instance action --action STOP --instance-id ocid1.instance.oc1.sa-sa
 ```
 
 
+------------
+
+
 ```shell
 oci compute instance action --action SOFTSTOP --instance-id ocid1.instance.oc1.sa-saopaulo-1.XXXXXXXXXXX
 ```
