@@ -15,9 +15,13 @@ Comandos disponíveis
 Para gerenciar uma instância usando o oci cli vamos usar o comando oci compute instance com o parâmetro action com os seguintes valores:
 
 **START:** Inicia a instância
+
 **STOP:** Para a instância
+
 **RESET:** Reinicia a instância
+
 **SOFTSTOP:** Emite comandos de sistema operacional para a VM e ela é parada
+
 **SOFTRESET:** Emite um comando de reiniciar para a VM nos mesmos moldes do SOFTSTOP
 
 Note que até o momento apenas as opções SOFTSTOP e  SOFTRESET estão disponíveis via dashboard:
@@ -30,7 +34,7 @@ Obrigatoriamente precisamos passar um valor para o parâmetro *- -action* e tamb
 oci compute instance list -c ocid1.compartment.oc1..XXXXXX | jq -r '.data[] | "Inst: \(."display-name") | Status: \(."lifecycle-state") | OCID: \(.id)"'
 ```
 
-Ele vai te mostrar a seguinte informação:
+Ele vai te mostrar a seguinte informação, um resumo das instâncias, seu respectivo status e seu ocid:
 
 [![](https://i.imgur.com/qI882Xo.png)](https://i.imgur.com/qI882Xo.png)
 
