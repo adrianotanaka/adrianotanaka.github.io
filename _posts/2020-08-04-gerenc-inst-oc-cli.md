@@ -14,13 +14,13 @@ Uma máquina do tipo Always free ou linux com o oci cli instalado e configurado 
 Comandos disponíveis
 Para gerenciar uma instância usando o oci cli vamos usar o comando oci compute instance com o parâmetro action com os seguintes valores:
 
-**START: ** Inicia a instância
+**START:** Inicia a instância
 
-**STOP: ** Para a instância
+**STOP:** Para a instância
 
-**RESET: ** Reinicia a instância
+**RESET:** Reinicia a instância
 
-**SOFTSTOP: ** Emite comandos de sistema operacional para a VM e ela é parada
+**SOFTSTOP:** Emite comandos de sistema operacional para a VM e ela é parada
 
 **SOFTRESET:** Emite um comando de reiniciar para a VM nos mesmos moldes do SOFTSTOP
 
